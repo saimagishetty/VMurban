@@ -1,0 +1,43 @@
+.header-body{
+    background: #F7f7f7;
+    width: 100vw;
+}
+nav {
+    max-width: 1500px;
+    margin: auto;
+    position: sticky !important;
+    top: 0px;
+}
+
+nav div {
+    max-width: 1360px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+li:hover {
+    border-bottom: 2px solid rgba(193, 82, 202, 1);
+}
+
+.VICTOUS {
+    color: #490082;
+}
+
+.icon-img {
+    padding: 0px 5px;
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set the desired color */
+  }
+  
