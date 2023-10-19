@@ -8,7 +8,13 @@
                         <li> <a [routerLink]="['/']">Home</a> </li>
                         <li> <a [routerLink]="['/aboutus']">About Us</a> </li>
                         <li> <a [routerLink]="['/services']">Services</a> </li>
-                        <li> <a [routerLink]="['/product']">Products</a> </li>
+                        <li class="dropdown"> <span>Products</span>
+                            <div class="dropdown-content">
+                                <a [routerLink]="['/']">Living Room </a>
+                                <a [routerLink]="['/']">Bedroom </a>
+                                <a [routerLink]="['/']">Dining </a>
+                            </div>
+                        </li>
                         <li> <a [routerLink]="['/contact']">Contact Us</a> </li>
                     </ul>
                 </div>

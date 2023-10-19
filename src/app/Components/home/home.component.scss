@@ -19,10 +19,14 @@
     height: 100vh;
     overflow: hidden;
     margin-top: -99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13%;
 }
 
 .home-bg1 {
-    padding-top: 120px;
+    // padding-top: 120px;
     text-align: center;
     font-family: Poppins;
     font-size: 64px;
@@ -45,7 +49,7 @@
         border: none;
     }
     img , button {
-        margin-right: 200px;
+        // margin-right: 200px;
     }
     br{
         margin: 0px;

@@ -1,0 +1,42 @@
+.aboutus-main {
+    background-image: url('../../../assets/images/aboutus/about-1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15vw;
+    div{
+        font-size: 40px;
+        font-weight: 700;
+        color: #653333;
+        text-align: right;
+    }
+}
+
+.aboutus {
+    max-width: 1360px;
+    margin: auto;
+    padding: 50px 100px;
+    box-sizing: border-box;
+
+    .aboutus-item {
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+    }
+}
+
+.about-bg {
+    background: rgba(53, 115, 110, 0.1);
+}
