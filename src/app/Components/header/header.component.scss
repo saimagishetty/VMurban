@@ -1,11 +1,15 @@
 .header-body{
     background: #F7f7f7;
     width: 100% !important;
+    position: sticky !important;
+    top: 0px;
+    z-index: 99999999999;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
 }
 nav {
     max-width: 1500px;
     margin: auto;
-    position: sticky !important;
+    // position: sticky !important;
     top: 0px;
 }
 
