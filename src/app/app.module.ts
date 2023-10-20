@@ -11,6 +11,8 @@ import { ServicesComponent } from './Components/services/services.component';
 import { ProductsComponent } from './Components/products/products.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { AboutUsComponent } from './Components/about-us/about-us.component';
+import { InterionServicesComponent } from './Components/interion-services/interion-services.component';
+import { InterionSolutionsComponent } from './Components/interion-solutions/interion-solutions.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutUsComponent } from './Components/about-us/about-us.component';
     ServicesComponent,
     ProductsComponent,
     ContactComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    InterionServicesComponent,
+    InterionSolutionsComponent
   ],
   imports: [
     BrowserModule,
